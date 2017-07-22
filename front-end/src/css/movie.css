@@ -1,0 +1,100 @@
+
+
+.movie-wrapper{
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #f9f9f9;
+    width: 100%;
+    position: absolute;
+    min-height: 100%;
+}
+.movie-nav{
+    display: flex;
+    border-bottom: 1px solid #fe6e00;
+}
+.movie-nav div{
+    width: 50%;
+}
+.movie-nav div a{
+    display: block;
+
+    box-sizing: border-box;
+    text-align: center;
+    height: 90px;
+    line-height: 90px;
+    color: #6a6a6a;
+}
+.movie-nav .active-nav{
+    color: #fe6e00;
+    border-bottom: 4px solid #fe6e00;
+}
+
+.film-item{
+    width: 100%;
+    padding: 40px 0;
+    border-bottom: dashed 1px #c9c9c9;
+    overflow: hidden;
+}
+.item-left{
+    float: left;
+}
+.item-right{
+    float: left;
+    width: 70%;
+    padding-left: 30px;
+    font-size: 24px;
+}
+.film-item img{
+    width: 120px;
+}
+.item-right .title{
+    overflow: hidden;
+}
+.item-right .title h2{
+    color: #000;
+    float:left;
+    font-size: 32px;
+    line-height: 64px;
+    font-weight: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.item-right .title span{
+    float: right;
+    font-size: 32px;
+    line-height: 64px;
+    color: #fc7103;
+}
+.item-right p{
+    height: 48px;
+    line-height: 48px;
+    color: #8e8e8e;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+.item-info{
+    margin-top: 8px;
+    line-height: 48px;
+    font-size: 24px;
+    color: #8e8e8e;
+}
+.item-info span{
+    color: #8aa2bf;
+}
+.item-info span:nth-of-type(2){
+    margin-left: 56px;
+}
+
+.item-info-coming{
+    margin-top: 8px;
+    line-height: 48px;
+    font-size: 24px;
+    color: #ffb375;
+}
+.item-info-coming span:last-of-type{
+    margin-left: 40px;
+}

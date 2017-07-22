@@ -1,0 +1,74 @@
+.login-form{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 62px;
+}
+.login-form .input-wrapper{
+    width: 100%;
+    margin-top: 60px;
+    position: relative;
+}
+.input-wrapper input{
+    display: block;
+    width: 100%;
+    height: 68px;
+    padding: 12px 24px;
+    font-size: 28px;
+    color: #555;
+    box-sizing: border-box;
+    line-height: 1.42857143;
+    border: none;
+    background: #ebebeb;
+}
+.input-bg{
+    position: absolute;
+    top: 40px;
+    height: 24px;
+    width: 100%;
+    border: solid #c4c4c4;
+    border-width: 0 2px 2px 2px;
+}
+#submit-btn{
+    width: 326px;
+    background-color: #fe8233;
+    color: #fff;
+    border: none;
+    border-radius: 72px;
+    margin-top: 90px;
+    padding: 16px 24px;
+    font-size: 30px;
+    outline: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 45px;
+}
+.wrong-msg{
+    display: block;
+    height: 32px;
+    color: #fe8233;
+    padding-left: 16px;
+    font-size: 24px;
+    line-height: 36px;
+}
+.send-code{
+    position: relative;
+    width: 190px;
+    position: absolute;
+    right: 10px;
+    top: -10px;
+    background-color: #29a097;
+    color: #fff;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 24px;
+}
+.send-code i{
+    position: absolute;
+    left: -16px;
+    font-size: 24px;
+    color: #29a097;
+}

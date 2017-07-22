@@ -1,0 +1,74 @@
+
+.now,coming{
+    padding-top: 34px;
+}
+
+.movie-item{
+    margin: 0 34px 34px 34px;
+    background-color: #f9f9f9;
+    box-shadow: 1px 1px 2px #a8a8a8;
+    cursor: pointer;
+}
+.movie-item img{
+    display: block;
+    width: 100%;
+}
+.movie-info{
+    padding: 21px 30px;
+    overflow: hidden;
+}
+.info-left{
+    float: left;
+}
+.info-left h3{
+    font-size: 24px;
+    line-height: 30px;
+    color: #000;
+    font-weight: normal;
+    text-align: left;
+}
+.info-left p{
+    font-size: 16px;
+    color: #9a9a9a;
+    line-height: 30px;
+    text-align: left;
+}
+.info-right{
+    float: right;
+    padding-top: 10px;
+}
+.info-right span{
+    color: #f78360;
+    font-size: 36px;
+}
+
+.more{
+    display: block;
+    width: 320px;
+    height: 60px;
+    border: 1px solid #aaa;
+    border-radius: 30px;
+    margin: 20px auto 60px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 60px;
+    color: #616161;
+}
+.divide-line{
+    position: relative;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    border-bottom: 1px solid #a8a8a8;
+}
+.divide-line div{
+    width: 130px;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #eee;
+    background-color: #a7a7a7;
+}
